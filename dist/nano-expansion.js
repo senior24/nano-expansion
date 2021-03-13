@@ -65,16 +65,14 @@
     _createClass(NanoExpansion, [{
       key: "evenHandler",
       value: function evenHandler(e) {
-        var _this2 = this;
-
         var parent = e.target.parentElement;
 
         if (this.isAutoFolding) {
-          this.expansions.forEach(function (expansion, index) {
-            if (index !== parseInt(parent.getAttribute("index"))) {
-              _this2.hideExpansion(expansion);
+          for (var i = 0; i < this.expansions.length; i++) {
+            if (i !== parseInt(parent.getAttribute("index"))) {
+              this.hideExpansion(this.expansions[i]);
             }
-          });
+          }
         }
 
         if (parent.getAttribute("open") === "no") {
