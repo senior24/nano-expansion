@@ -39,9 +39,9 @@ class NanoExpansion {
     const parent = e.target.parentElement;
 
     if (this.isAutoFolding) { 
-      this.expansions.forEach((expansion, index) => {
-        if (index !== parseInt(parent.getAttribute("index"))) { this.hideExpansion(expansion) }
-      });
+      for (let i = 0; i < this.expansions.length; i++) {
+        if (i !== parseInt(parent.getAttribute("index"))) { this.hideExpansion(this.expansions[i]) }
+      }
     }
 
     if (parent.getAttribute("open") === "no") {
