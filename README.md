@@ -3,7 +3,6 @@ Simple vanilla javascript accordion library
 
 ## Installation
 
-<<<<<<< HEAD
 **via NPM**
 ```shell
 npm install nano-expansion --save
@@ -28,28 +27,6 @@ You can see the index.html file for examples of usage. [Live example](https://mc
 
 ```html
 <div class="nano-expansion-wrapper" id="myexpansion">
-=======
-### Package manager
-
-Manager | Command
---- | ---
-npm | `npm install nano-expansion --save`
-yarn | `yarn add nano-expansion`
-
-### CDN / Download
-
-File | CDN
---- | ---
-CSS | [nano-expansion.css](https://unpkg.com/browse/nano-expansion@1.0.0/dist/nano-expansion.css)
-JS | [nano-expansion.js](https://unpkg.com/browse/nano-expansion@1.0.0/dist/nano-expansion.js)
-
-## Usage
-
-### Markup
-
-```html
-<div class="nano-expasion-wrapper" id="myexpansion">
->>>>>>> 6a7fb3454434ba1cdcedeb5c1092df091e2f50d6
 
   <div class="nano-expansion">
     <div class="nano-expansion-toggle">expansion 1</div>
@@ -62,7 +39,6 @@ JS | [nano-expansion.js](https://unpkg.com/browse/nano-expansion@1.0.0/dist/nano
 
 </div>
 ```
-<<<<<<< HEAD
 Note: wrapper must have an id
 
 **JS**
@@ -73,14 +49,3 @@ const nanoExpansion = new NanoExpansion({
   autoFolding: true // only shows one expansion
 });
 ```
-=======
-**Note**: id is required for wrapper
-
-```javascript
-const nanoExpansion = new NanoExpansion({
-  duration: .2,
-  wrapper: "#myexpansion",
-  autoFolding: true
-});
-```
->>>>>>> 6a7fb3454434ba1cdcedeb5c1092df091e2f50d6
