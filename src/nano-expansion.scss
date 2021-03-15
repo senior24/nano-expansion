@@ -1,5 +1,5 @@
 /*!
- * NanoExpansion v1.0.0
+ * NanoExpansion v1.0.2
  * Simple vanilla javascript Accordion library
  * https://github.com/mcanam/nano-expansion
  * 
