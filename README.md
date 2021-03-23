@@ -29,8 +29,8 @@ You can see the index.html file for examples of usage. [Live example](https://mc
 <div class="nano-expansion-wrapper" id="myexpansion">
 
   <div class="nano-expansion">
-    <div class="nano-expansion-toggle">expansion 1</div>
-    <div class="nano-expansion-content">
+    <div class="nano-expansion-head">expansion 1</div>
+    <div class="nano-expansion-body">
       <span>sample text</span>
     </div>
   </div>
@@ -44,8 +44,8 @@ Note: wrapper must have an id
 **JS**
 ```javascript
 const nanoExpansion = new NanoExpansion({
-  duration: 0.2, // duration in seconds
   wrapper: "#myexpansion", // wrapper id
+  duration: 0.2, // duration in seconds
   autoFolding: true // only shows one expansion
 });
 ```
