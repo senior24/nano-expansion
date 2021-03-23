@@ -1,5 +1,5 @@
 /*!
- * NanoExpansion v1.0.2
+ * NanoExpansion v1.0.3
  * Simple vanilla javascript Accordion library
  * https://github.com/mcanam/nano-expansion
  * 
@@ -15,13 +15,7 @@
   overflow: hidden;
   will-change: max-height;
   transition: max-height .2s ease 0s; }
-  .nano-expansion-wrapper {
-    width: 100%; }
-    .nano-expansion-wrapper > .nano-expansion {
-      margin-bottom: 10px; }
-      .nano-expansion-wrapper > .nano-expansion:last-child {
-        margin-bottom: 0; }
-  .nano-expansion-toggle {
+  .nano-expansion-head {
     position: relative;
     box-sizing: border-box;
     width: 100%;
@@ -38,8 +32,8 @@
         -ms-user-select: none;
             user-select: none;
     -webkit-tap-highlight-color: transparent;
-    transition: all .2s ease 0s; }
-    .nano-expansion-toggle::after {
+    transition: 0.2s; }
+    .nano-expansion-head::after {
       content: "";
       width: 8px;
       height: 8px;
@@ -48,10 +42,16 @@
       -webkit-transform: rotate(45deg);
               transform: rotate(45deg);
       transition: inherit; }
-    .nano-expansion-toggle.active::after {
+    .nano-expansion-head.active::after {
       -webkit-transform: rotate(225deg);
               transform: rotate(225deg); }
-  .nano-expansion-content {
+  .nano-expansion-body {
     box-sizing: border-box;
     width: 100%;
     padding: 20px; }
+  .nano-expansion-wrapper {
+    width: 100%; }
+    .nano-expansion-wrapper > .nano-expansion {
+      margin-bottom: 10px; }
+      .nano-expansion-wrapper > .nano-expansion:last-child {
+        margin-bottom: 0; }

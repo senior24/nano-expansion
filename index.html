@@ -17,7 +17,7 @@
   </style>
 
   <!-- add css -->
-  <link rel="stylesheet" href="dist/nano-expansion.css">
+  <link rel="stylesheet" href="dist/nano-expansion.min.css">
   
 </head>
 <body>
@@ -27,16 +27,16 @@
     
     <!-- expansion 1 -->
     <div class="nano-expansion">
-      <div class="nano-expansion-toggle">expansion 1</div>
-      <div class="nano-expansion-content">
+      <div class="nano-expansion-head">expansion 1</div>
+      <div class="nano-expansion-body">
         <span>sample text</span>
       </div>
     </div>
 
     <!-- expansion 2 -->
     <div class="nano-expansion">
-      <div class="nano-expansion-toggle">expansion 2</div>
-      <div class="nano-expansion-content">
+      <div class="nano-expansion-head">expansion 2</div>
+      <div class="nano-expansion-body">
         <span>sample text</span>
         <br>
         <span>sample text</span>
@@ -45,8 +45,8 @@
 
     <!-- expansion 3 -->
     <div class="nano-expansion">
-      <div class="nano-expansion-toggle">expansion 3</div>
-      <div class="nano-expansion-content">
+      <div class="nano-expansion-head">expansion 3</div>
+      <div class="nano-expansion-body">
         <span>sample text</span>
         <br>
         <span>sample text</span>
@@ -58,13 +58,13 @@
   </div>
 
   <!-- add javascript -->
-  <script src="dist/nano-expansion.js"></script>
+  <script src="dist/nano-expansion.min.js"></script>
 
   <!-- create initialization -->
   <script>
     const nanoExpansion = new NanoExpansion({
-      duration: 0.2,
       wrapper: "#myexpansion",
+      duration: 0.2,
       autoFolding: true,
     });
   </script>
