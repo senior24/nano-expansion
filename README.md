@@ -15,8 +15,8 @@ yarn add nano-expansion
 
 **via CDN**
 ```html
-<link rel="stylesheet" href="https://unpkg.com/nano-expansion@1.0.2/dist/nano-expansion.min.css">
-<script src="https://unpkg.com/nano-expansion@1.0.2/dist/nano-expansion.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/nano-expansion@1.1.3/dist/nano-expansion.min.css">
+<script src="https://unpkg.com/nano-expansion@1.1.3/dist/nano-expansion.min.js"></script>
 ```
 
 ## Usage
