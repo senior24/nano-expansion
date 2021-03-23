@@ -1,6 +1,6 @@
 {
   "name": "nano-expansion",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple vanilla javascript Accordion library",
   "main": "dist/nano-expansion.js",
   "scripts": {
